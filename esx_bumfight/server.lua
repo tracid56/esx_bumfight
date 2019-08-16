@@ -347,6 +347,8 @@ function payement(side)
         end
         if val.betOn ~= side then
             val.score = 0
+	    val.bet = 0
+	    val.betOn = nil
         end
     end
 end
